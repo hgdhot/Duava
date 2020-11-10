@@ -2389,7 +2389,7 @@ public class ScheduledMessageProducer {
 }
 ```
 
-###4.3.3 验证
+### 4.3.3 验证
 
 您将会看到消息的消费比存储时间晚10秒
 
@@ -2573,7 +2573,7 @@ consumer.start();
 
 ### 4.6.1 流程分析
 
-![] (img/事务消息.png)
+![](img/事务消息.png)
 
 
 
@@ -2607,7 +2607,7 @@ consumer.start();
 * TransactionStatus.RollbackTransaction: 回滚事务，它代表该消息将被删除，不允许被消费。
 * TransactionStatus.Unknown: 中间状态，它代表需要检查消息队列来确定状态。
 
-###4.6.1 发送事务消息
+### 4.6.1 发送事务消息
 
 #### 1) 创建事务性生产者
 
